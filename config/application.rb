@@ -45,7 +45,7 @@ module Peoplefinder
     config.active_record.raise_in_transactional_callbacks = true
     config.active_record.schema_format = :sql
 
-    config.elastic_search_url = ENV['MOJ_PF_ES_URL']
+    config.elastic_search_url = ENV['ELASTICSEARCH_URL']
 
     config.disable_communities = true
 

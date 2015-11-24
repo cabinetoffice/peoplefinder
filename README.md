@@ -1,4 +1,4 @@
-# MoJ People Finder
+# Cabinet Office People Finder
 
 ![Build Status](https://circleci.com/gh/ministryofjustice/peoplefinder.png?circle-token=7af6dba1153f14c5e9b4ca7aec831720aeb00b1c)
 [![Code
@@ -59,6 +59,15 @@ In rails console:
 
 ```ruby
 PermittedDomain.create(domain: 'some.domain.gov.uk')
+```
+## Policies
+
+Policies can be applied to each team. This feature restrains users to edit profiles from other teams.
+
+A [seed file](db%2Fseeds%2Fdata%2Fpolicies.yml) loads the policies that are going to be applied. Bear in mind that if you want to remove one policy, commenting it in this file is not enough, you'll have to delete the policy manually using the `rails console`:
+
+```ruby
+Policy.find_by(name: 'some-policy-name').destroy
 ```
 
 ## Authentication

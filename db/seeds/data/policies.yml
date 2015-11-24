@@ -1,7 +1,11 @@
----
-- name: cabinet-office-only
-  allowed_to:
-    - cabinetoffice@gov.uk
-# - name: moj-only
-#   allowed_to:
-#     - moj.gov.uk
+--- 
+- 
+  name: cabinet-office-only
+  allowed_to: 
+    - cabinetoffice.gov.uk
+    - cabinet-office.gov.uk
+    - cabinet-office.x.gsi.gov.uk
+- 
+  name: no-10-only
+  allowed_to: 
+    - no10.x.gsi.gov.uk
