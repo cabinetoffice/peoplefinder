@@ -11,6 +11,7 @@ class SuggestionMailer < ApplicationMailer
     @person = person
     @suggester = suggester
     @suggestion = Suggestion.new(suggestion_hash)
+    @admin = admin
     mail to: admin.email
   end
 end

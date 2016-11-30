@@ -84,6 +84,10 @@ RSpec.describe SuggestionMailer do
       expect(mail.to).to include(admin.email)
     end
 
+    it 'contains the name of the admin' do
+      expect_mail_body_text(admin.given_name)
+    end
+
     it 'contains the name of the suggester' do
       expect_mail_body_text(suggester.name)
     end
