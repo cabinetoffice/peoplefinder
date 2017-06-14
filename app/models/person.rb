@@ -1,3 +1,5 @@
+require 'csv'
+
 class Person < ActiveRecord::Base
   include Concerns::Acquisition
   include Concerns::Activation
@@ -123,6 +125,22 @@ class Person < ActiveRecord::Base
   end
 
   public
+
+  def self.to_csv
+    CSV.generate do |csv|
+      csv << [:id, :friendly_id, :given_name, :surname, :email, :primary_phone_number, :secondary_phone_number]
+      all.each do |person|
+        csv << [person.id, person.friendly_id, person.given_name, person.surname, person.email, person.primary_phone_number, person.secondary_phone_number]
+      end
+    end
+  end
+
+  def to_csv
+    CSV.generate do |csv|
+      csv << [:id, :friendly_id, :given_name, :surname, :email, :primary_phone_number, :secondary_phone_number]
+      csv << [id, friendly_id, given_name, surname, email, primary_phone_number, secondary_phone_number]
+    end
+  end
 
   def to_s
     name

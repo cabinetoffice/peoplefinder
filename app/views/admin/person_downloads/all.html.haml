@@ -1,0 +1,17 @@
+%h1= t('person_downloads.header')
+
+%p= t('person_downloads.message')
+
+%h3= t('person_downloads.subheader')
+
+%ul
+	%li You must make suitable arrangements to securely store this data.
+	%li You must ensure the data is not transferred or stored outside the United Kingdom.
+	%li You must ensure your use of the data complies with the <a href="https://www.gov.uk/government/publications/civil-service-code/the-civil-service-code">Civil Service code</a>.
+	%li You must ensure you periodically update your dataset to reflect changes within People Finder.
+
+.spacer-10
+
+%p= t('person_downloads.audit')
+
+%p= link_to 'Download', '/api/people.csv', class: 'button login-button'

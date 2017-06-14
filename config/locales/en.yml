@@ -123,6 +123,11 @@ en:
     show:
       community: Community
       community_unset: Not specified
+  person_downloads:
+    header: Download people’s details
+    subheader: Your responsibilities
+    message: You can download a subset of People Finder data in CSV format for internal business purposes.
+    audit: A record of each download is stored for audit purposes.
   person_uploads:
     header: Upload people’s details
     add_new_team: Add new team

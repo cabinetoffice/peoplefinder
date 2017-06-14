@@ -3,8 +3,9 @@ Rails.application.routes.draw do
   get 'ping', to: 'ping#index'
   get 'healthcheck', to: 'health_check#index'
 
-  namespace :api, format: [:json] do
+ namespace :api, format: [:json, :csv] do
     resources :people, only: [:show]
+    get '/people', to: 'people#all'
   end
 
   resources :profile_photos, only: [:create]
@@ -49,6 +50,8 @@ Rails.application.routes.draw do
   constraints ip: admin_ip_matcher do
     namespace :admin do
       resources :person_uploads, only: [:new, :create]
+      resources :person_downloads, only: [:downloads]
+      get '/person_downloads', to: 'person_downloads#all'
     end
   end
 
