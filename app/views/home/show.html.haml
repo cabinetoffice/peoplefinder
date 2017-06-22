@@ -23,7 +23,7 @@
 
   %div.leaders.grid.grid-1-1
     - @group.leaders_by_priority.each_with_index do |leader, index|
-      %div{:id => "leader#{index}"}.leader-profile
+      %div{:id => "leader#{index}", :class => "leader-profile"}
         = link_to leader do
           %div.leader-background
             = profile_image_tag leader, class: 'team-members'
