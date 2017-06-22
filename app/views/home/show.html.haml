@@ -22,8 +22,8 @@
     = govspeak(@group.with_placeholder_default(:description))
 
   %div.leaders.grid.grid-1-1
-    - @group.leaders_by_priority.each do |leader|
-      %div.leader-profile
+    - @group.leaders_by_priority.each_with_index do |leader, index|
+      %div{:id => "leader#{index}"}.leader-profile
         = link_to leader do
           %div.leader-background
             = profile_image_tag leader, class: 'team-members'
