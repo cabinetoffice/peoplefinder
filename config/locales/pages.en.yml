@@ -3,7 +3,118 @@ en:
     privacy:
       title: Privacy
       body: |
-        People Finder 
+        This notice sets out how we will use your personal data, and your rights.
+        It is made under Articles 13 and/or 14 of the General Data Protection Regulation (GDPR).
+        
+        # YOUR DATA
+                
+        We will process the following personal and sensitive personal data:
+
+        * First name
+        * Surname
+        * Staff number
+        * Main telephone number
+        * Alternative telephone number
+        * Main work email
+        * Alternative work email
+        * City
+        * Building
+        * Location in building
+        * Job title
+        * Team
+        * Working days
+        * Photograph
+
+        In addition to these attributes, we will process any additional unstructured
+        information you provide in the ‘Extra information’ field such as how you prefer to be
+        contacted by colleagues or what time you start and finish. 
+        
+        ## Purpose
+        
+        The purpose for which we are processing your personal data is to enable Cabinet
+        Office staff to identify and find accurate contact details for you and to facilitate
+        and encourage collaborative working across the organisation.
+        
+        ## Legal basis of processing
+        
+        The legal basis for processing your personal data is that processing is necessary
+        for the performance of a contract to which you are a party, namely the Cabinet Office
+        employment contract.
+        
+        In relation to photographs you provide: 
+        The legal basis is that you consent. 
+
+        ## Recipients
+        
+        As your personal data will be stored on our IT infrastructure it will also be shared with
+        our data processors who provide web hosting, document management and storage services to us. 
+        
+        ## Where you did not provide your personal data
+        
+        Where you did not provide your personal data it was provided by the Cabinet Office or
+        other public body that employs, or employed you prior to transition into Cabinet Office.
+
+        ## Retention
+        
+        Your information will be kept for the duration of your employment by Cabinet Office.
+        If you leave the organisation, your data will be automatically deleted within 6 months.
+
+        ## Your Rights
+        
+        You have the right to request information about how your personal data are processed,
+        and to request a copy of that personal data. 
+
+        You have the right to request that any inaccuracies in your personal data are rectified without delay. 
+        
+        You have the right to request that any incomplete personal data are completed, including by means
+        of a supplementary statement. 
+        
+        You have the right to request that your personal data are erased if there is no longer
+        a justification for them to be processed. 
+        
+        You have the right in certain circumstances (for example, where accuracy is contested) to
+        request that the processing of your personal data is restricted. 
+        
+        You have the right to object to the processing of your personal data where it is processed
+        for direct marketing purposes. 
+        
+        You have the right to object to the processing of your personal data.
+
+        You have the right to withdraw consent for the processing of your photographs. You can delete
+        these at any time by logging into your profile.
+        
+        # INTERNATIONAL TRANSFERS 
+
+        As your personal data is stored on our IT infrastructure, and shared with our data processors
+        who provide web hosting, document management and storage services, it may be transferred and
+        stored securely outside the European Union. Where that is the case it will be subject to
+        equivalent legal protection through the use of Model Contract Clauses.
+
+        # COMPLAINTS
+        
+        If you consider that your personal data has been misused or mishandled, you may make a complaint
+        to the Information Commissioner, who is an independent regulator. The Information Commissioner
+        can be contacted at: Information Commissioner's Office, Wycliffe House, Water Lane, Wilmslow,
+        Cheshire, SK9 5AF, or 0303 123 1113, or [casework@ico.org.uk][ico-email]. Any complaint to the Information
+        Commissioner is without prejudice to your right to seek redress through the courts.
+
+        # CONTACT DETAILS
+        
+        The data controller for your personal data is the Cabinet Office. The contact details for the
+        data controller are: Cabinet Office, 70 Whitehall, London, SW1A 2AS, or 0207 276 1234, or
+        [publiccorrespondence@cabinetoffice.gov.uk][co-email]. 
+
+        The contact details for the data controller’s Data Protection Officer are: Stephen Jones,
+        Data Protection Officer, Cabinet Office, 70 Whitehall, London, SW1A 2AS, or 
+        [dpo@cabinetoffice.gov.uk][dpo-email]. 
+
+        The Data Protection Officer provides independent advice and monitoring of Cabinet Office’s
+        use of personal information.
+
+        [ico-email]: mailto:casework@ico.org.uk
+        [co-email]: mailto:publiccorrespondence@cabinetoffice.gov.uk
+        [dpo-email]: mailto:dpo@cabinetoffice.gov.uk
+        
     cookies:
       title: Cookies
       body: |
