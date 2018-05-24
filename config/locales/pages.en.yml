@@ -1,5 +1,9 @@
 en:
   pages:
+    privacy:
+      title: Privacy
+      body: |
+        People Finder 
     cookies:
       title: Cookies
       body: |
