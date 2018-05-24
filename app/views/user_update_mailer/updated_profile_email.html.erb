@@ -17,6 +17,7 @@
           <td width="560" align="left" valign="top" style="font-family:Arial, sans-serif;font-size:16px;font-weight:normal;line-height:30px;color:#434343;padding-bottom:20px;border-collapse:collapse;">
             <p>Your profile on People Finder has been edited<% if @by_email.present? %> by <%= @by_email %><% end %>.</p>
             <p>To see the updated profile, visit <%= link_to @profile_url, @profile_url, style: 'color:#097FC9;' %>.</p>
+            <p>Our <%= link_to 'privacy notice', :privacy, style:'color:#097FC9;' %> explains the way we process your personal data, the reason we use it and the rights you have.</p>
           </td>
         </tr>
         <tr>
