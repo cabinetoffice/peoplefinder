@@ -28,15 +28,6 @@
           %span.error= @person.errors[:surname].first
       = f.text_field :surname, class: 'form-control'
 
-    - if current_user.is?(@person) or super_admin?
-      = f.form_group :staff_nr do
-        = f.label :staff_nr, class: 'form-label-bold form-label-staff-nr' do
-          Staff number
-          - if @person.errors.include?(:staff_nr)
-            %span.error= @person.errors[:staff_nr].first
-        = f.text_field :staff_nr, class: 'form-control'
-
-
   - if feature_enabled?("communities")
     = f.form_group :community_id do
       %label.form-label-bold{ for: :person_community_id } Community
