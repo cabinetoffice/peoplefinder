@@ -1,0 +1,1 @@
+People.where("last_login_at < ?", 6.months.ago).destroy_all
