@@ -61,6 +61,10 @@ module ApplicationHelper
   def app_title
     Rails.configuration.app_title
   end
+  
+  def app_url
+	Rails.configuration.app_url
+  end
 
   def page_title
     (

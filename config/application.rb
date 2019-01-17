@@ -29,6 +29,7 @@ module Peoplefinder
 
     # app title appears in the header bar
     config.app_title = 'People Finder'
+	config.app_url = 'http://intranet.cabinetoffice.gov.uk'
 
     config.admin_ip_ranges = ENV.fetch('ADMIN_IP_RANGES', '127.0.0.1')
 
